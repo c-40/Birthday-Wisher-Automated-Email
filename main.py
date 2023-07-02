@@ -3,8 +3,8 @@ import smtplib
 from datetime import datetime
 import random
 import pandas
-myemail = "holly1233490@gmail.com"
-password = "wrcvitovxfxzfocf"
+myemail = "abc@gmail.com"
+password = "1234"
 
 today=(datetime.now().month,datetime.now().day)
 data=pandas.read_csv("birthdays.csv")
